@@ -7,7 +7,7 @@ import SearchBar from "../components/SearchBar";
 const Home = ({ navigation }) => {
   return (
     <View>
-      <SafeAreaView style={{ height: "100%" }}>
+      <SafeAreaView >
         <View style={styles.Container}>
           {/* Header Section */}
           <ChatHeader />
